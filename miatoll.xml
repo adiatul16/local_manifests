@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- XIAOMI MANIFEST -->
+
+<!-- Kernel -->
+  <project name="TaskMaster-Kernel/android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="github" revision="eleven"/>
+
+<!-- Miatoll -->
+  <project name="android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="devices"/>
+
+<!-- Xiaomi-SM6250-Common-->
+  <project name="android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="devices"/>
+
+<!-- Vendor -->
+  <project name="android_vendor_xiaomi_sm6250" path="vendor/xiaomi" remote="devices"/>
+
+</manifest>
