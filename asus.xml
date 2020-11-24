@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote  name="adiatul16"
-            fetch="https://github.com/adiatul16"
-            revision="11.0"/>
- 
+
 <!-- Kernel -->
 <project name="TaskMaster-Kernel/android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="eleven"/>
 
 <!-- Asus Zenfone Max Pro M1 (X00TD) -->
-<project name="android_device_asus_X00TD" path="device/asus/X00TD" remote="adiatul16"/>
+<project name="crdroidandroid/android_device_asus_X00T" path="device/asus/X00TD" remote="github" revision="11.0"/>
 
 <!-- Asus-SDM660-Common-->
-<project name="android_device_asus_sdm660-common" path="device/asus/sdm660-common" remote="adiatul16"/>
+<project name="crdroidandroid/android_device_asus_sdm660-common" path="device/asus/sdm660-common" remote="github" revision="11.0"/>
 
 <!-- Vendor -->
 <project name="proprietary_vendor_asus" path="vendor/asus" remote="adiatul16" />
