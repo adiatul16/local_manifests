@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<remote  name="adiatul16"
+         fetch="https://github.com/adiatul16/"
+         revision="11.0" />
 
 <!-- Kernel -->
 <project name="TaskMaster-Kernel/android_kernel_asus_sdm660" path="kernel/asus/sdm660" remote="github" revision="eleven"/>
