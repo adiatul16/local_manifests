@@ -6,13 +6,13 @@
   <project name="TaskMaster-Kernel/android_kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="github" revision="eleven-hmp"/>
 
 <!-- Mi 6X -(Wayne) -->
-  <project name="android_device_xiaomi_wayne" path="device/xiaomi/wayne" remote="crdroid"/>
+  <project name="crdroidandroid/android_device_xiaomi_wayne" path="device/xiaomi/wayne" remote="github" revision="11.0" />
 
 <!-- Xiaomi-SDM660-Common-->
-  <project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="crdroid"/>
+  <project name="crdroidandroid/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="11.0" />
 
 <!-- Vendor -->
-  <project name="android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="crdroid"/>
+  <project name="crdroidandroid/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="11.0" />
   <project name="adiatul16/android_vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="github" revision="master" />
 
 </manifest>
