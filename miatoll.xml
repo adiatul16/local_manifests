@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- XIAOMI MANIFEST -->
+  <remote name="aditya"
+          fetch="https://github.com/adiatul16/"
+          revision="11.0-HMP" />
+
+  <remote name="agitlab"
+          fetch="https://gitlab.com/adiatul16/"
+          revision="11.0" />
 
 <!-- Kernel -->
-  <project name="TaskMaster-Kernel/android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="github" revision="eleven"/>
+  <project name="adiatul16/android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="github" revision="11.0" />
 
 <!-- Miatoll -->
-  <project name="android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="devices"/>
+  <project name="adiatul16/android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="github" revision="11.0-HMP" />
 
 <!-- Xiaomi-SM6250-Common-->
-  <project name="android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="devices"/>
+  <project name="adiatul16/android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="github" revision="11.0-HMP" />
 
 <!-- Vendor -->
-  <project name="android_vendor_xiaomi_sm6250" path="vendor/xiaomi" remote="devices"/>
+  <project name="android_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="aditya" />
+
+<!-- Vendor -->
+  <project name="adiatul16/android_vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="github" revision="11.0-EAS" />
+
+<!-- GMS -->
+   <project name="proprietary_vendor_partner_gms" path="vendor/partner_gms" remote="agitlab" />
 
 </manifest>
