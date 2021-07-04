@@ -3,7 +3,7 @@
 <!-- XIAOMI MANIFEST -->
   <remote name="aditya"
           fetch="https://github.com/adiatul16/"
-          revision="11.0-HMP" />
+          revision="11.0-QTI" />
 
   <remote name="agitlab"
           fetch="https://gitlab.com/adiatul16/"
@@ -16,13 +16,20 @@
   <project name="adiatul16/android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="github" revision="11.0-HMP" />
 
 <!-- Xiaomi-SM6250-Common-->
-  <project name="adiatul16/android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="github" revision="11.0-HMP" />
+  <project name="adiatul16/android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="github" revision="11.0-QTI" />
 
 <!-- Vendor -->
   <project name="android_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" remote="aditya" />
 
 <!-- Vendor -->
   <project name="adiatul16/android_vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" remote="github" revision="11.0-EAS" />
+
+<!-- Power -->
+  <remove-project name="crdroidandroid/android_vendor_qcom_opensource_power" />
+  <project name="adiatul16/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="11.0" />
+
+<!-- Proton Clang -->
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
 
 <!-- GMS -->
    <project name="proprietary_vendor_partner_gms" path="vendor/partner_gms" remote="agitlab" />
