@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="agitlab"
+          fetch="https://gitlab.com/adiatul16/"
+          revision="11.0" />
+
 <!-- XIAOMI MANIFEST -->
 
 <!-- Kernel -->
@@ -14,5 +18,11 @@
 <!-- Vendor -->
   <project name="crdroidandroid/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="11.0-eas" />
   <project name="adiatul16/android_vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="github" revision="master" />
+
+<!-- Proton Clang -->
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
+
+<!-- GMS -->
+   <project name="proprietary_vendor_partner_gms" path="vendor/partner_gms" remote="agitlab" />
 
 </manifest>
