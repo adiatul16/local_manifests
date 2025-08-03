@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Oneplus MANIFEST -->
+<!-- Kernel -->
+  <project name="LineageOS/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="github" revision="lineag>
+<!-- Martini -->
+  <project name="adiatul16/android_device_oneplus_martini" path="device/oneplus/martini" remote="github" revision="15.0>
+<!-- Onepluss-SM8350-Common-->
+  <project name="adiatul16/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="github" re>
+<!-- Common Vendor -->
+  <project name="adiatul16/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="github>
+<!-- Device Vendor -->
+  <project name="adiatul16/proprietary_vendor_oneplus_martini" path="vendor/oneplus/martini" remote="github" revision=">
+<!-- Device Vendor -->
+  <project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="crdroid" />
+
+</manifest>
